@@ -11,7 +11,7 @@ const EffectTutorial = () => {
       .then((response) => {
         // console.log(response.data)
         console.log('meow')
-        setData(response.data[0].email)
+        setData(response.data.map((subject, i) => <li>{subject.email}</li>))
       })
   }, [count])
 
