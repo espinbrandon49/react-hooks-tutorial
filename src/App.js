@@ -10,6 +10,7 @@ import LayoutEffectTutorial from './Pages/LayoutEffectTutorial';
 import ImperativeHandle from './Pages/ImperativeHandle';
 import ContextTutorial from './Pages/ContextTutorial';
 import MemoTutorial from './Pages/MemoTutorial';
+import CallbackTutorial from './Pages/CallbackTutorial';
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
           <Route path='imperativeHandle' element={<ImperativeHandle />} />
           <Route path='contextTutorial' element={<ContextTutorial />} />
           <Route path='memoTutorial' element={<MemoTutorial />} />
+          <Route path='callbackTutorial' element={<CallbackTutorial />} />
         </Routes>
       </div>
     </Router>

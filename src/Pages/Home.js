@@ -13,6 +13,7 @@ const Home = () => {
         <li><Link to="/imperativeHandle">Imperative Handle Tutorial</Link></li>
         <li><Link to="/contextTutorial">Context Tutorial</Link></li>
         <li><Link to="/memoTutorial">Memo Tutorial</Link></li>
+        <li><Link to="/callbackTutorial">Callback Tutorial</Link></li>
       </ul>
     </>
   )
